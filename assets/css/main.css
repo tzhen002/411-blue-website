@@ -789,6 +789,31 @@ body.landing.is-preload:after {
   }
 }
 
+/* Overlay */
+
+.overlay {
+  position: relative;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay:hover .image {
+  opacity: 0.3;
+}
+
+.overlay:hover .middle {
+  opacity: 1;
+}
+
 /* Row */
 
 .row {
@@ -2618,6 +2643,9 @@ input[type="radio"] + label:before {
   display: inline-block;
   position: relative;
   overflow: hidden;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
 .image:before {
