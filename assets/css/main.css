@@ -2705,6 +2705,12 @@ input[type="radio"] + label:before {
   width: 100%;
 }
 
+.mobile-mockup {
+  height: 350px; 
+  width: 150px; 
+  object-fit: contain;
+}
+
 /* List */
 
 ol {
