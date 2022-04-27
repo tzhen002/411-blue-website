@@ -54,7 +54,14 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="./prototype.html">Prototype</a></li>
+                            <li>
+                                <a href="./prototype.html">Prototype</a>
+                                <ul>
+                                    <li><a href="./prototype.html#deliverables">Deliverables</a></li>
+                                    <li><a href="./prototype.html#stories">User Stories</a></li>
+                                </ul>
+                            </li>
+                            
                             <li>
                                 <a href="./labs.html">Labs</a>
                                 <ul>
@@ -68,5 +75,117 @@
                         </ul>
                     </nav>
                 </header>
-
+            
             <!-- Prototype MFCD -->
+                <div id="deliverables" class="wrapper style1">
+                    <div class="container">
+                        <header class="major">
+                            <h2 class="major">
+                                Prototype Deliverables
+                            </h2>
+                        </header>
+
+                        <!-- Prototype Deliverables -->
+                            <section>
+                                <div class="box alt">
+                                    <div class="row gtr-50 gtr-uniform align-center">
+
+                                        <!-- RWP vs. Prototype -->
+                                            <article class="col-4 col-6-xsmall">
+                                                <h4>RWP vs. Prototype</h4>
+                                                <div class="overlay">
+                                                    <span class="image fit"><img src="./deliverables/prototype/RWPvPrototype.jpg" alt="Real World Product vs Prototype Table" /></span>
+                                                    <div class="middle">
+                                                        <a href="./deliverables/prototype/RWPvPrototype.jpg" data-bind="attr:{href: downloadTarget}" class="button primary">View</a>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        
+                                        <!-- Prototype MFCD -->
+                                            <article class="col-4 col-6-xsmall">
+                                                <h4>Prototype MFCD</h4>
+                                                <div class="overlay">
+                                                    <span class="image fit"><img src="./deliverables/prototype/Major_Functional_Component_Diagram_Prototype.jpg" alt="Real World Product vs Prototype Table" /></span>
+                                                    <div class="middle">
+                                                        <a href="./deliverables/prototype/Major_Functional_Component_Diagram_Prototype.jpg" data-bind="attr:{href: downloadTarget}" class="button primary">View</a>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                    </div>
+                                </div>
+                            </section>
+                    </div>
+                </div>
+
+                <!-- User Stories -->
+                <div id="stories" class="wrapper style1">
+                    <div class="container">
+                        <header class="major">
+                            <h2 class="major">Prototype User Stories</h2>
+                            <h4 style="color:orange">Orange - Partially implemented</h4>
+                            <h4 style="color:red">Red - Eliminated</h4>
+                        </header>
+
+                        <!-- Front End -->
+                            <section>
+                                <h3>Front End</h3>
+                                <ul>
+                                    <li>As a commissioned artist, I need to be able to sign in to my account.</li>
+                                    <li>As a commissioned artist, I need to be able to sign up for an account.</li>
+                                    <li>As a commissioned artist, I need to be able to upload my art.</li>
+                                    <li>As a commissioned artist, I would like to see a collection of the art that I have uploaded.</li>
+                                    <li>As a commissioned artist, I would like to know which pieces of my art have been found on the NFT marketplaces.</li>
+                                    <li>As a commissioned artist, I would like to see information to help me protect my art. </li>
+                                    <li style="color:orange">As a commissioned artist, I would like to be able to issue takedowns of stolen art found on the marketplace.</li>
+                                    <li style="color:red">As a commissioned artist, I would like to be updated on the status of the DMCA Takedown.</li>
+                                    <li>As a commissioned artist, I need my information to be secure and private.</li>
+                                    <li>As a commissioned artist, I would like to see information about the NFT using my art.</li>
+                                    <li>As a NFT Artist, I need to be able to upload my art.</li>
+                                    <li>As a NFT Artist, I need to be able to whitelist my minted NFT.</li>
+                                    <li>As a NFT artist, I would like to be able to know which pieces of my art have been found on the NFT marketplaces.</li>
+                                    <li>As a NFT artist, I would like to see information to help me protect my art.</li>
+                                    <li>As a NFT artist, I need to be able to easily issue a DMCA Takedown.</li>
+                                    <li>As a NFT artist, I would like to be updated on the status of the DMCA Takedown.</li>
+                                    <li>As a NFT artist, I need my information to be secure and private. </li>
+                                    <li>As a NFT artist, I would like to see information about my stolen NFT.</li>
+                                </ul>
+                            </section>
+
+                        <!-- Tester -->
+                            <section>
+                                <h3>Testing</h3>
+                                <ul>
+                                    <li>As a back-end tester I need to be able to trigger the 2-Factor-Authentication for testing.</li>
+                                    <li>As a back-end tester I need to be able to trigger a push notification for testing.</li>
+                                    <li>As a back-end tester I need to be able to access the image Artist Resources database for reading and uploading images.</li>
+                                    <li>As a back-end tester I need to be able to make a fake NFT to test our DMCA Generation system.</li>
+                                    <li>As a back-end tester I need to be able to make a fake NFT to test our flagging system.</li>
+                                    <li>As a back-end tester I need to be able to invoke the image matcher to receive test matching values.</li>
+                                    <li>As a back-end tester I need to be able to make a fake NFT to test our Whitelisitng system.</li>
+                                    <li>As a back-end tester I need a testing mode for our app to access tests easier.</li>
+                                    <li>As a back-end tester I need to be able to access the image database for reading and writing user information.</li>
+                                    <li style="color:red">As a back-end tester I need to be able to verify my identity using the Stripe-API.</li>
+                                    <li style="color:orange">As a back-end tester I need to be able to access the email API to send test emails.</li>
+                                </ul>
+                            </section>
+                            
+                    </div>
+                </div>
+        <!-- Footer -->
+				<footer id="footer">
+					<h3>Old Dominion University</h3>
+					<p> CS 410 Team Blue <br> Spring 2022 </p>
+				</footer>
+
+        <!-- Scripts -->
+            <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/jquery.scrolly.min.js"></script>
+            <script src="assets/js/jquery.dropotron.min.js"></script>
+            <script src="assets/js/jquery.scrollex.min.js"></script>
+            <script src="assets/js/browser.min.js"></script>
+            <script src="assets/js/breakpoints.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <script src="assets/js/main.js"></script>
+
+	</body>
+</html>
